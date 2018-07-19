@@ -27,3 +27,6 @@ block content
 				option(value='Manski') Manski
 				option(value='Yonski') Yonski
 		input.btn.btn-default(name='submit',type='submit',value='Save')
+		script(src='/ckeditor/ckeditor.js')
+		script
+			| CKEDITOR.replace('body');
